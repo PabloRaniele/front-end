@@ -1,0 +1,16 @@
+/* DESAFIO 3 */
+#desafio-box-model {
+  margin: 20px;
+  padding: 15px;
+  border: 4px dashed red;
+  outline: 4px dashed green;
+  border-radius: 15px;
+  width: 200px;
+  height: 90px;
+  background-color: rgb(26, 2, 243);
+}
+.desafio-titulo {
+  color: rgb(13, 236, 80);
+  background-color: rgb(13, 2, 22);
+  border: none;
+}
