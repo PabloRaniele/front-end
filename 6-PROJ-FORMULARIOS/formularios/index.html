@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto de Formularios</title>
+    <link rel="stylesheet" href="/6-PROJ-FORMULARIOS/Css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Cadastre seu veículo para vender mais rápido</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>FORMULÁRIO</p>
+          <form >
+          </div>
+          <div class="form-body">
+            <h1 class="form-title">Venda fácil seu carro!</h1>
+          <p>Descreva as caracteristicas e marque os pcionais que ele possui:</p>
+          </div>
+        <div>
+          <div class="box-input">
+            <label for="announcement">Título do anúncio: <span class="required-field">*</span></label>
+  
+            <input
+            type="text"
+            name="announcement"
+            id="title"
+            class="block"
+            placeholder="Um titulo para anunciar seu carro"
+            minlength="1"
+            maxlength="30"
+            required
+          />
+        </div>
+        <div>
+          <label for="price">Preço:</label>
+          <input type="text" name="price" placeholder="Defina o preço" />
+        </div>
+        <div>
+          <label for="Description">Descrição:</label>
+          <textarea
+            name="Description"
+            placeholder="Aqui você coloca detalhes do veículo, por exemplo: Caso tenha algum arranhão"
+          ></textarea>
+        </div>
+        <div>
+          <label for="Brand">Marca:</label>
+          <input
+            type="text"
+            name="Brand"
+            placeholder="Digite o modelo do veículo"
+          />
+        </div>
+        <div>
+          <label for="Model">Modelo:</label>
+          <input
+            type="text"
+            name="Model"
+            placeholder="Digite o modelo do carro"
+          />
+        </div>
+        <div>
+          <label for="kilometers">Kilometragem:</label>
+          <input
+            type="text"
+            name="kilometers"
+            placeholder="Digite a Kilometragem do veículo"
+          />
+        </div>
+        <div>
+          <label for="Date">Data da compra:</label>
+          <input type="date" name="Model" />
+        </div>
+  
+        <!-- Cambio -->
+        <div>
+          <label for="exchange">Selecione o tipo de Câmbio</label>
+          <div class="exchange">
+            <input type="radio" value="Manual" name="exchange" />
+            <label for="Manual">Manual</label>
+          </div>
+          <div class="exchange">
+            <input type="radio" value="Automatico" name="exchange" />
+            <label for="Automatico">Automatico</label>
+          </div>
+        </div>
+        <!-- opcionais -->
+        <div>
+          <label for="optionals" name="optionals[]">Opcionais:</label>
+          <div class="optionals">
+            <input type="checkbox" value="Airbag" name="optionals" />
+            <label for="Airbag">Airbag</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="Alarme" name="optionals" />
+            <label for="Alarme">Alarme</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="ArCondicionado" name="optionals" />
+            <label for="ArCondicionado">Ar Condicionado</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="Cámera de Ré" name="optionals" />
+            <label for="Cámera de Ré">Cámera de Ré</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="Assistente de Pista" name="optionals" />
+            <label for="Assistente de Pista">Assistente de Pista</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="Partida keyless" name="optionals" />
+            <label for="Partida keyless">Partida keyless</label>
+          </div>
+          <div class="optionals">
+            <input
+              type="checkbox"
+              value="Integração com celular"
+              name="optionals"
+            />
+            <label for="Integração com celular">Integração com celular</label>
+          </div>
+          <div class="optionals">
+            <input type="checkbox" value="Banco de couro" name="optionals" />
+            <label for="Banco de couro">Banco de couro</label>
+          </div>
+        </div>
+        <div>
+          <label for="image">Fotos do carro</label>
+          <input type="file" name="image" />
+        </div>
+        <div>
+          <input type="submit" value="Cadastrar" />
+          <option value="name"></option>
+        </div>
+          </form>
+      
+        </div>
+        
+       
+    </div>
+  </body>
+</html>
