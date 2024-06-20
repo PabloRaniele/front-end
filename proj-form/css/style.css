@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f0ebf8;
+  background-color: #f0efac;
 }
 
 h1,
@@ -24,7 +24,7 @@ label {
 
 input {
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #005f00;
   padding: 10px 0;
 }
 
@@ -43,7 +43,7 @@ textarea {
 .header {
   height: 160px;
   padding: 20px;
-  background-color: rebeccapurple;
+  background-color: rgb(83, 89, 105);
 }
 
 .header h3 {
@@ -52,7 +52,7 @@ textarea {
 }
 
 .form-container {
-  background-color: #fdfdfd;
+  background-color: #f7f5f5;
   width: 60%;
   margin: 0 auto;
   position: relative;
@@ -60,13 +60,13 @@ textarea {
 }
 /* form-header */
 .form-header {
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #1f08f0;
   height: 45px;
 }
 
 .form-header p {
   color: #673ab7;
-  border-bottom: 2px solid #673ab7;
+  border-bottom: 2px solid #44b73a;
   width: 100px;
   text-align: center;
   margin: 0 auto;
@@ -114,7 +114,7 @@ textarea {
 }
 
 .btn-submit {
-  background-color: #673ab7;
+  background-color: #f10000;
   color: #fff;
   border: 2px solid transparent;
   width: 150px;
